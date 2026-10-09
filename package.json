@@ -1,0 +1,9 @@
+{
+  "name": "aprdr",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm -r --parallel dev",
+    "build": "pnpm --filter aprdr-web build",
+    "start": "pnpm --filter aprdr-server start"
+  }
+}
